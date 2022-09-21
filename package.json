@@ -1,0 +1,24 @@
+{
+  "name": "legendary-slide",
+  "version": "1.0.0",
+  "main": "./dist/legendary-slide.umd.js",
+  "module": "./dist/legendary-slide.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/legendary-slide.es.js",
+      "require": "./dist/legendary-slide.umd.js"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "vite": "^2.6.2"
+  }
+}
